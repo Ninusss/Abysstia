@@ -47,7 +47,7 @@
   }
 }
 .container-2 {
-  disply: flex;
+  display: flex;
   flex-direction: column;
   overflow: hidden;
   position: relative;
@@ -91,8 +91,7 @@
 }
 .Welcome {
   color: #3a3c63;
-  font: 700 40px Playfair Display, -apple-system, Roboto, Helvetica,
-    sans-serif;
+  font: 700 40px Playfair Display, sans-serif;
 }
 .Text1 {
   color: #27272a;
@@ -179,7 +178,7 @@
 
 .Facepicture {
     aspect-ratio: 1;
-    object-fit: auto;
+    object-fit: fill;
     object-position: center;
     width: 100%;
     border-radius: 25px;
@@ -310,7 +309,7 @@
 }
 .image4 {
   aspect-ratio: 1;
-  object-fit: auto;
+  object-fit: fill;
   object-position: center;
   width: 100px;
 }
@@ -378,7 +377,7 @@
 }
 .image5 {
   aspect-ratio: 1;
-  object-fit: auto;
+  object-fit: fill;
   object-position: center;
   width: 100%;
   border-radius: 25px;
